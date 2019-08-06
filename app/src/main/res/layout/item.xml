@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+    android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:textStyle="bold"
+            android:text="NAME"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tv_adress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADRESS"
+            android:layout_gravity="top|right"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:id="@+id/tv_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PHONE"
+            android:layout_gravity="left|bottom"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/tv_time_job"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JOB"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="5dp"/>
+    </FrameLayout>

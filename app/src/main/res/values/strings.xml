@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Список номеров телефонов аптек</string>
+    <string name="name_header">Список аптек: </string>
 </resources>
